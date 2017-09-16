@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="BossController.View.BossControllerPage">
+	<ContentPage.Content>
+
+        <ScrollView>
+            <StackLayout
+                Padding="10"
+                Spacing="5"
+                Orientation="Vertical"
+            >
+                <Button x:Name="btnCaveCrawler" Text="Cave Crawler" Clicked="GoToBoss"/>
+                <Button x:Name="btnGiantCyclops" Text="Giant Cyclops" Clicked="GoToBoss"/>
+                <Button x:Name="btnOrcOverlord" Text="Orc Overlord" Clicked="GoToBoss"/>
+                <Button x:Name="btnDemonOverlord" Text="Demon Overlord" Clicked="GoToBoss"/>
+                <Button x:Name="btnVenusFlytrap" Text="Venus Flytrap" Clicked="GoToBoss"/>
+                <Button x:Name="btnTheReaper" Text="The Reaper" Clicked="GoToBoss"/>
+                <Button x:Name="btnDiablo" Text="Diablo" Clicked="GoToBoss"/>
+                <Button x:Name="btnAncientHydra" Text="Ancient Hydra" Clicked="GoToBoss"/>
+                <Button x:Name="btnPharaoh" Text="Pharaoh" Clicked="GoToBoss"/>
+                <Button x:Name="btnDemonPortal" Text="Demon Portal" Clicked="GoToBoss"/>
+                <Button x:Name="btnChaoticDragon" Text="Chaotic Dragon" Clicked="GoToBoss"/>
+                <Button x:Name="btnCannibalPlant" Text="Cannibal Plant" Clicked="GoToBoss"/>
+                <Button x:Name="btnNephilimWarrior" Text="Nephilim Warrior" Clicked="GoToBoss"/>
+                <Button x:Name="btnWorldTree" Text="World Tree" Clicked="GoToBoss"/>
+                <Button x:Name="btnAcidDragonLord" Text="Acid Dragon Lord" Clicked="GoToBoss"/>
+                <Button x:Name="btnBloodEagle" Text="Blood Eagle" Clicked="GoToBoss"/>
+                <Button x:Name="btnTitanMinotaur" Text="Titan Minotaur" Clicked="GoToBoss"/>
+
+            </StackLayout>
+        </ScrollView>
+        
+	</ContentPage.Content>
+</ContentPage>
