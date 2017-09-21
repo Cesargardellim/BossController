@@ -1,16 +1,7 @@
 ﻿<Properties StartupConfiguration="{28D2A346-EC23-4476-811B-50FADC085EB8}|Default">
-  <MonoDevelop.Ide.ItemProperties.BossController.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3724BF09-5A59-490E-8AD8-000A93B0EBB5">
-    <MonoDevelop.MacDev.AppleDevelopmentTeam />
-  </MonoDevelop.Ide.ItemProperties.BossController.iOS>
-  <MonoDevelop.Ide.Workbench ActiveDocument="BossController/View/BossPage.xaml">
-    <Files>
-      <File FileName="BossController/View/BossPage.xaml" Line="5" Column="31" />
-      <File FileName="BossController/View/BossPage.xaml.cs" Line="40" Column="1" />
-      <File FileName="BossController/Entity/AcessoDados.cs" Line="34" Column="10" />
-      <File FileName="BossController/Entity/World.cs" Line="16" Column="2" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.BossController.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2CDDB96B-9DD6-47C0-BFC7-2667C139458A" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhoneSimulator" />
   <MonoDevelop.Ide.ItemProperties.BossController.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

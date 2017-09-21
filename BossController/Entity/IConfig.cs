@@ -1,5 +1,5 @@
 ﻿using System;
-using SQLite.Net.Interop;
+using SQLite;
 
 namespace BossController.Entity
 {
@@ -7,7 +7,7 @@ namespace BossController.Entity
     {
 
         string DiretoryDB { get; }
-        ISQLitePlatform Plataform { get; }
+        //ISQLitePlatform Plataform { get; }
 
 
 

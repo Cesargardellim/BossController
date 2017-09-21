@@ -1,5 +1,5 @@
 ﻿using System;
-using SQLite.Net.Interop;
+using SQLite;
 using Xamarin.Forms;
 
 [assembly: Dependency(typeof(BossController.Droid.Config))]
@@ -23,7 +23,7 @@ namespace BossController.Droid
             }
         }
 
-
+        /*
         private SQLite.Net.Interop.ISQLitePlatform _platform;
         public ISQLitePlatform Plataform {
             get{
@@ -34,7 +34,7 @@ namespace BossController.Droid
             }
         }
 
-
+        */
 
     }
 }

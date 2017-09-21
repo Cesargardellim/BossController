@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using SQLite.Net.Attributes;
+using SQLite;
 using Xamarin.Forms;
 
 namespace BossController.Entity
 {
-    public class World : ContentPage
+    public class World
     {
 		[PrimaryKey]
-		public int Id { get; set; }
+		public int IdW { get; set; }
 
 		public string Name { get; set; }
 

@@ -5,9 +5,10 @@
     Title="{Binding BossName}"
     Padding="0, 20, 0, 0"
     >
-    
+    <ScrollView>
     <StackLayout>   <!-- Main StackLayout  -->
         <StackLayout
+            x:Name="StackMemes"
             Orientation="Horizontal"
             Spacing="40"
             HorizontalOptions="CenterAndExpand"
@@ -30,12 +31,15 @@
             Spacing="40"
             HorizontalOptions="CenterAndExpand"
             ><!-- Label spawns -->
-            <Label x:Name="Killed1" Text="44:44:44"/>
-            <Label x:Name="MinSpawn1" Text="15:15:15"/>
-            <Label x:Name="MaxSpawn1" Text="16:16:16"/>
+            <Label x:Name="Killed1" Text=""/>
+            <Label x:Name="MinSpawn1" Text=""/>
+            <Label x:Name="MaxSpawn1" Text=""/>
         </StackLayout>
 
-        <StackLayout><!-- Button -->
+        <StackLayout
+            Orientation="Horizontal"
+            HorizontalOptions="CenterAndExpand"
+            Spacing="15"><!-- Button -->
             <Button x:Name="World2" Text="World 2" Clicked="GetTime"/>
         </StackLayout>
         <StackLayout
@@ -43,19 +47,120 @@
             Spacing="40"
             HorizontalOptions="CenterAndExpand"
             ><!-- Label spawns -->
-            <Label x:Name="Killed2" Text="99:99:99"/>
-            <Label x:Name="MinSpawn2" Text="11:11:11"/>
-            <Label x:Name="MaxSpawn2" Text="22:22:22"/>
+            <Label x:Name="Killed2" Text=""/>
+            <Label x:Name="MinSpawn2" Text=""/>
+            <Label x:Name="MaxSpawn2" Text=""/>
+        </StackLayout>
+
+        <StackLayout
+            Orientation="Horizontal"
+            HorizontalOptions="CenterAndExpand"
+            Spacing="15"><!-- Button -->
+            <Button x:Name="World3" Text="World 3" Clicked="GetTime"/>
+        </StackLayout>
+        <StackLayout
+            Orientation="Horizontal"
+            Spacing="40"
+            HorizontalOptions="CenterAndExpand"
+            ><!-- Label spawns -->
+            <Label x:Name="Killed3" Text=""/>
+            <Label x:Name="MinSpawn3" Text=""/>
+            <Label x:Name="MaxSpawn3" Text=""/>
+        </StackLayout>
+
+        <StackLayout
+            Orientation="Horizontal"
+            HorizontalOptions="CenterAndExpand"
+            Spacing="15"><!-- Button -->
+            <Button x:Name="World4" Text="World 4" Clicked="GetTime"/>
+        </StackLayout>
+        <StackLayout
+            Orientation="Horizontal"
+            Spacing="40"
+            HorizontalOptions="CenterAndExpand"
+            ><!-- Label spawns -->
+            <Label x:Name="Killed4" Text=""/>
+            <Label x:Name="MinSpawn4" Text=""/>
+            <Label x:Name="MaxSpawn4" Text=""/>
+        </StackLayout>
+
+        <StackLayout
+            Orientation="Horizontal"
+            HorizontalOptions="CenterAndExpand"
+            Spacing="15"><!-- Button -->
+            <Button x:Name="World5" Text="World 5" Clicked="GetTime"/>
+        </StackLayout>
+        <StackLayout
+            Orientation="Horizontal"
+            Spacing="40"
+            HorizontalOptions="CenterAndExpand"
+            ><!-- Label spawns -->
+            <Label x:Name="Killed5" Text=""/>
+            <Label x:Name="MinSpawn5" Text=""/>
+            <Label x:Name="MaxSpawn5" Text=""/>
+        </StackLayout>
+
+        <StackLayout
+            Orientation="Horizontal"
+            HorizontalOptions="CenterAndExpand"
+            Spacing="15"><!-- Button -->
+            <Button x:Name="World6" Text="World 6" Clicked="GetTime"/>
+        </StackLayout>
+        <StackLayout
+            Orientation="Horizontal"
+            Spacing="40"
+            HorizontalOptions="CenterAndExpand"
+            ><!-- Label spawns -->
+            <Label x:Name="Killed6" Text=""/>
+            <Label x:Name="MinSpawn6" Text=""/>
+            <Label x:Name="MaxSpawn6" Text=""/>
+        </StackLayout>
+
+        <StackLayout
+            Orientation="Horizontal"
+            HorizontalOptions="CenterAndExpand"
+            Spacing="15"><!-- Button -->
+            <Button x:Name="World7" Text="World 7" Clicked="GetTime"/>
+        </StackLayout>
+        <StackLayout
+            Orientation="Horizontal"
+            Spacing="40"
+            HorizontalOptions="CenterAndExpand"
+            ><!-- Label spawns -->
+            <Label x:Name="Killed7" Text=""/>
+            <Label x:Name="MinSpawn7" Text=""/>
+            <Label x:Name="MaxSpawn7" Text=""/>
+        </StackLayout>
+
+        <StackLayout
+            Orientation="Horizontal"
+            HorizontalOptions="CenterAndExpand"
+            Spacing="15"><!-- Button -->
+            <Button x:Name="World8" Text="World 8" Clicked="GetTime"/>
+        </StackLayout>
+        <StackLayout
+            Orientation="Horizontal"
+            Spacing="40"
+            HorizontalOptions="CenterAndExpand"
+            ><!-- Label spawns -->
+            <Label x:Name="Killed8" Text=""/>
+            <Label x:Name="MinSpawn8" Text=""/>
+            <Label x:Name="MaxSpawn8" Text=""/>
         </StackLayout>
 
         <StackLayout
             Orientation="Vertical"
             Margin="0,20,0,0"
             >
+            <StackLayout x:Name="pls"></StackLayout>
+            <!--
             <ListView x:Name="list" ></ListView>
+            <Label x:Name="Label" Text="ayy" />
+            -->
 
         </StackLayout>
-        
-        
+
     </StackLayout>
+        
+    </ScrollView>
 </ContentPage>

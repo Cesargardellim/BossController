@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="BossController.View.BossControllerPage">
+    x:Class="BossController.View.BossControllerPage"
+    Title="Boss Controller">
 	<ContentPage.Content>
 
-        <ScrollView>
+        <ScrollView
+        x:Name="ScrollView"
+            >
             <StackLayout
+                x:Name="StackButtons"
                 Padding="10"
                 Spacing="5"
                 Orientation="Vertical"
             >
+            <!--
+                <ListView x:Name="ListWBoss" ItemTapped="GoToBoss"  >
+
+                </ListView>
+
+            -->
+                <!--
+
                 <Button x:Name="btnCaveCrawler" Text="Cave Crawler" Clicked="GoToBoss"/>
                 <Button x:Name="btnGiantCyclops" Text="Giant Cyclops" Clicked="GoToBoss"/>
                 <Button x:Name="btnOrcOverlord" Text="Orc Overlord" Clicked="GoToBoss"/>
@@ -27,7 +39,9 @@
                 <Button x:Name="btnAcidDragonLord" Text="Acid Dragon Lord" Clicked="GoToBoss"/>
                 <Button x:Name="btnBloodEagle" Text="Blood Eagle" Clicked="GoToBoss"/>
                 <Button x:Name="btnTitanMinotaur" Text="Titan Minotaur" Clicked="GoToBoss"/>
-
+                
+                -->
+                
             </StackLayout>
         </ScrollView>
         

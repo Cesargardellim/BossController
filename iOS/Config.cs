@@ -1,5 +1,5 @@
 ﻿using System;
-using SQLite.Net.Interop;
+using SQLite;
 using Xamarin.Forms;
 
 [assembly: Dependency(typeof(BossController.iOS.Config))]
@@ -26,7 +26,7 @@ namespace BossController.iOS
             }
         }
 
-
+        /*
         private SQLite.Net.Interop.ISQLitePlatform _platform;
         public ISQLitePlatform Plataform {
             get{
@@ -39,7 +39,7 @@ namespace BossController.iOS
             }
         }
 
-
+        */
 
 
     }

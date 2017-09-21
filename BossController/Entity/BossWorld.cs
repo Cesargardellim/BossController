@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using SQLite.Net.Attributes;
+using SQLite;
 using Xamarin.Forms;
 
 namespace BossController.Entity
