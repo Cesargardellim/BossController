@@ -16,6 +16,7 @@
 /Users/cesargardellim/Projects/BossController/BossController/bin/Release/Xamarin.Forms.Xaml.xml
 /Users/cesargardellim/Projects/BossController/BossController/bin/Release/SQLite-net.pdb
 /Users/cesargardellim/Projects/BossController/BossController/bin/Release/SQLite-net.xml
+/Users/cesargardellim/Projects/BossController/BossController/obj/Release/BossController.csprojResolveAssemblyReference.cache
 /Users/cesargardellim/Projects/BossController/BossController/obj/Release/BossController.csproj.CoreCompileInputs.cache
 /Users/cesargardellim/Projects/BossController/BossController/obj/Release/BossController.App.xaml.g.cs
 /Users/cesargardellim/Projects/BossController/BossController/obj/Release/BossController.View.BossControllerPage.xaml.g.cs

@@ -57,3 +57,4 @@
 /Users/cesargardellim/Projects/BossController/Droid/obj/Debug/res/drawable-xxhdpi/icon.png
 /Users/cesargardellim/Projects/BossController/Droid/obj/Debug/R.cs.flag
 /Users/cesargardellim/Projects/BossController/Droid/obj/Debug/uploadflags.txt
+/Users/cesargardellim/Projects/BossController/Droid/obj/Debug/BossController.Droid.SplashScreen.xaml.g.cs

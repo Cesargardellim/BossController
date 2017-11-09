@@ -17,10 +17,10 @@
 /Users/cesargardellim/Projects/BossController/BossController/bin/Debug/Xamarin.Forms.Xaml.xml
 /Users/cesargardellim/Projects/BossController/BossController/bin/Debug/SQLite-net.pdb
 /Users/cesargardellim/Projects/BossController/BossController/bin/Debug/SQLite-net.xml
+/Users/cesargardellim/Projects/BossController/BossController/obj/Debug/BossController.csprojResolveAssemblyReference.cache
 /Users/cesargardellim/Projects/BossController/BossController/obj/Debug/BossController.csproj.CoreCompileInputs.cache
 /Users/cesargardellim/Projects/BossController/BossController/obj/Debug/BossController.App.xaml.g.cs
 /Users/cesargardellim/Projects/BossController/BossController/obj/Debug/BossController.View.BossControllerPage.xaml.g.cs
 /Users/cesargardellim/Projects/BossController/BossController/obj/Debug/BossController.View.BossPage.xaml.g.cs
 /Users/cesargardellim/Projects/BossController/BossController/obj/Debug/BossController.dll
 /Users/cesargardellim/Projects/BossController/BossController/obj/Debug/BossController.pdb
-/Users/cesargardellim/Projects/BossController/BossController/obj/Debug/BossController.csprojResolveAssemblyReference.cache

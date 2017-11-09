@@ -96,47 +96,56 @@ namespace BossController.View
 				case "Orc Overlord":
 					Navigation.PushAsync(new BossPage(ListBossDB[2]));
 					break;
-				case "Demon Overlord":
+				case "Orc Overlord Dungeon":
 					Navigation.PushAsync(new BossPage(ListBossDB[3]));
 					break;
-				case "Venus Flytrap":
+				case "Demon Overlord":
 					Navigation.PushAsync(new BossPage(ListBossDB[4]));
 					break;
-				case "The Reaper":
+				case "Venus Flytrap":
 					Navigation.PushAsync(new BossPage(ListBossDB[5]));
 					break;
-				case "Diablo":
+				case "The Reaper":
 					Navigation.PushAsync(new BossPage(ListBossDB[6]));
 					break;
-				case "Ancient Hydra":
+				case "Diablo":
 					Navigation.PushAsync(new BossPage(ListBossDB[7]));
 					break;
-				case "Pharaoh":
+				case "Ancient Hydra":
 					Navigation.PushAsync(new BossPage(ListBossDB[8]));
 					break;
-				case "Demon Portal":
+				case "Ancient Hydra New":
 					Navigation.PushAsync(new BossPage(ListBossDB[9]));
 					break;
-				case "Chaotic Dragon":
+				case "Pharaoh":
 					Navigation.PushAsync(new BossPage(ListBossDB[10]));
 					break;
-				case "Cannibal Plant":
+				case "Demon Portal":
 					Navigation.PushAsync(new BossPage(ListBossDB[11]));
 					break;
-				case "Nephilim Warrior":
+				case "Chaotic Dragon":
 					Navigation.PushAsync(new BossPage(ListBossDB[12]));
 					break;
-				case "World Tree":
+				case "Cannibal Plant":
 					Navigation.PushAsync(new BossPage(ListBossDB[13]));
 					break;
-				case "Acid Dragon Lord":
+				case "Raguel The Archangel":
 					Navigation.PushAsync(new BossPage(ListBossDB[14]));
 					break;
-				case "Blood Eagle":
+				case "Nephilim Warrior":
 					Navigation.PushAsync(new BossPage(ListBossDB[15]));
 					break;
-				case "Titan Minotaur":
+				case "World Tree":
 					Navigation.PushAsync(new BossPage(ListBossDB[16]));
+					break;
+				case "Acid Dragon Lord":
+					Navigation.PushAsync(new BossPage(ListBossDB[17]));
+					break;
+				case "Blood Eagle":
+					Navigation.PushAsync(new BossPage(ListBossDB[18]));
+					break;
+				case "Titan Minotaur":
+					Navigation.PushAsync(new BossPage(ListBossDB[19]));
 					break;
 				default:
                     break;
@@ -172,100 +181,121 @@ namespace BossController.View
 				HP = 1200
 			};
 
-			var bossDOL = new Entity.Boss
+			var bossOOLD = new Entity.Boss
 			{
 				IdB = 4,
+				Name = "Orc Overlord Dungeon",
+				HP = 1200
+			};
+
+			var bossDOL = new Entity.Boss
+			{
+				IdB = 5,
 				Name = "Demon Overlord",
 				HP = 1200
 			};
 
 			var bossVF = new Entity.Boss
 			{
-				IdB = 5,
+				IdB = 6,
 				Name = "Venus Flytrap",
 				HP = 1400
 			};
 
 			var bossTR = new Entity.Boss
 			{
-				IdB = 6,
+				IdB = 7,
 				Name = "The Reaper",
 				HP = 1600
 			};
 
 			var bossD = new Entity.Boss
 			{
-				IdB = 7,
+				IdB = 8,
 				Name = "Diablo",
 				HP = 2400
 			};
 
 			var bossAH = new Entity.Boss
 			{
-				IdB = 8,
+				IdB = 9,
 				Name = "Ancient Hydra",
+				HP = 3250
+			};
+
+			var bossAHNew = new Entity.Boss
+			{
+				IdB = 10,
+				Name = "Ancient Hydra New",
 				HP = 3250
 			};
 
 			var bossP = new Entity.Boss
 			{
-				IdB = 9,
+				IdB = 11,
 				Name = "Pharaoh",
 				HP = 4240
 			};
 
 			var bossDP = new Entity.Boss
 			{
-				IdB = 10,
+				IdB = 12,
 				Name = "Demon Portal",
 				HP = 5000
 			};
 
 			var bossCD = new Entity.Boss
 			{
-				IdB = 11,
+				IdB = 13,
 				Name = "Chaotic Dragon",
 				HP = 7350
 			};
 
 			var bossCP = new Entity.Boss
 			{
-				IdB = 12,
+				IdB = 14,
 				Name = "Cannibal Plant",
+				HP = 7350
+			};
+
+			var bossRTA = new Entity.Boss
+			{
+				IdB = 15,
+				Name = "Raguel The Archangel",
 				HP = 7350
 			};
 
 			var bossNW = new Entity.Boss
 			{
-				IdB = 13,
+				IdB = 16,
 				Name = "Nephilim Warrior",
 				HP = 10920
 			};
 
 			var bossWT = new Entity.Boss
 			{
-				IdB = 14,
+				IdB = 17,
 				Name = "World Tree",
 				HP = 14000
 			};
 
 			var bossADL = new Entity.Boss
 			{
-				IdB = 15,
+				IdB = 18,
 				Name = "Acid Dragon Lord",
 				HP = 14900
 			};
 
 			var bossBE = new Entity.Boss
 			{
-				IdB = 16,
+				IdB = 19,
 				Name = "Blood Eagle",
 				HP = 38540
 			};
 
 			var bossTM = new Entity.Boss
 			{
-				IdB = 17,
+				IdB = 20,
 				Name = "Titan Minotaur",
 				HP = 38430
 			};
@@ -273,15 +303,18 @@ namespace BossController.View
 			ListBoss.Add(bossCC);
 			ListBoss.Add(bossGC);
 			ListBoss.Add(bossOOL);
+			ListBoss.Add(bossOOLD);
             ListBoss.Add(bossDOL);
             ListBoss.Add(bossVF);
             ListBoss.Add(bossTR);
-            ListBoss.Add(bossD);
-            ListBoss.Add(bossAH);
+			ListBoss.Add(bossD);
+			ListBoss.Add(bossAH);
+			ListBoss.Add(bossAHNew);
             ListBoss.Add(bossP);
             ListBoss.Add(bossDP);
             ListBoss.Add(bossCD);
             ListBoss.Add(bossCP);
+            ListBoss.Add(bossRTA);
             ListBoss.Add(bossNW);
             ListBoss.Add(bossWT);
             ListBoss.Add(bossADL);

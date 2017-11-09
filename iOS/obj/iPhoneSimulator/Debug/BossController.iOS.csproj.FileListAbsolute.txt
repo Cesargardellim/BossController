@@ -59,7 +59,7 @@
 /Users/cesargardellim/Projects/BossController/iOS/obj/iPhoneSimulator/Debug/BossController.iOS.csproj.CoreCompileInputs.cache
 /Users/cesargardellim/Projects/BossController/iOS/obj/iPhoneSimulator/Debug/BossController.iOS.exe
 /Users/cesargardellim/Projects/BossController/iOS/obj/iPhoneSimulator/Debug/BossController.iOS.pdb
-/Users/cesargardellim/Projects/BossController/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-10.3.1/ibtool/_BundleResourceWithLogicalName.items
-/Users/cesargardellim/Projects/BossController/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-10.3.1/actool/_PartialAppManifest.items
-/Users/cesargardellim/Projects/BossController/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-10.3.1/actool/_BundleResourceWithLogicalName.items
-/Users/cesargardellim/Projects/BossController/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-10.3.1/optimized/
+/Users/cesargardellim/Projects/BossController/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/cesargardellim/Projects/BossController/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_PartialAppManifest.items
+/Users/cesargardellim/Projects/BossController/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_BundleResourceWithLogicalName.items
+/Users/cesargardellim/Projects/BossController/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/

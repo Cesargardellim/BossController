@@ -12,6 +12,7 @@
             Orientation="Horizontal"
             Spacing="40"
             HorizontalOptions="CenterAndExpand"
+            Margin="0,0,0,20"
             > <!-- MinumumSpawn Label and MaximumSpawn Label -->
             <!--Breakline code: &#x0a; -->
             <Label Text="Killed&#x0a;Time" Margin="10,0,0,0" HorizontalTextAlignment="Center"/>
